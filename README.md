@@ -17,6 +17,26 @@ Lasso is a free Mac app for content creators and private users needing to manage
 - **One library for everything,** with filters for footage type, place, people and media, and search across names, places, transcripts and people.
 - **Knows your drives and cards,** even after they're renamed, and tells you which apps are blocking an eject.
 
+## A look inside
+
+**Library.** Everything you've wrangled in one place, filtered by footage type, location, people and media.
+
+<img src="docs/images/preview-1-library.png" width="720" alt="Lasso's Library: footage tiles with type labels, durations and locations, with filters on the left">
+
+**Wrangle Files.** Lasso suggests a type and a new name for each file, shows where it will go, and skips duplicates already in your library.
+
+<img src="docs/images/preview-2-wrangle.png" width="720" alt="The Wrangle Files tab: naming pattern, file list with types and new names, and where files will go">
+
+**File details.** Click a tile to see its previous name, folder, people and transcription.
+
+<img src="docs/images/preview-3-details.png" width="720" alt="A Library tile opened to show file type, previous name, folder, people and transcription">
+
+**People.** Optional face grouping: name the people who appear in your files, then find them by name.
+
+<img src="docs/images/preview-4-people.png" width="720" alt="The Who's in your files? window with example people to name">
+
+<sub>Sample photos and videos in these screenshots are from [Pexels](https://www.pexels.com).</sub>
+
 ## Requirements
 
 - macOS 14 (Sonoma) or later
@@ -32,12 +52,29 @@ Lasso is a free Mac app for content creators and private users needing to manage
 
 Lasso is free and isn't signed with a paid Apple Developer account, so macOS asks you to confirm that you trust it the first time you open it. You only need to do this once.
 
-1. Double-click **Lasso** in Applications. macOS shows a message that it couldn't verify Lasso. Click **Done** (or **OK**).
-2. Open **System Settings › Privacy & Security**.
-3. Scroll down to **Security**. You'll see "Lasso was blocked to protect your Mac." Click **Open Anyway**.
-4. Confirm with **Open Anyway** again, and enter your Mac password or use Touch ID if asked.
+1. Double-click **Lasso** in Applications.
 
-Lasso now opens normally from then on.
+   <img src="docs/images/open-1-app.png" width="360" alt="The Lasso app icon">
+
+2. macOS shows a message that it couldn't verify Lasso. Click **Done** (not Move to Trash).
+
+   <img src="docs/images/open-2-not-opened.png" width="360" alt="“Lasso” Not Opened message with Move to Trash and Done buttons">
+
+3. Open **System Settings › Privacy & Security** and scroll down to **Security**. You'll see "Lasso was blocked to protect your Mac." Click **Open Anyway**.
+
+   <img src="docs/images/open-3-privacy-security.png" width="480" alt="Privacy & Security settings showing Lasso was blocked, with an Open Anyway button">
+
+4. macOS asks once more. Click **Open Anyway**.
+
+   <img src="docs/images/open-4-open-anyway.png" width="480" alt="Open “Lasso”? message with an Open Anyway button">
+
+5. Use Touch ID or click **Use Password…** and enter your Mac password.
+
+   <img src="docs/images/open-5-password.png" width="480" alt="Privacy & Security asking for Touch ID or an administrator password">
+
+6. Lasso opens to its welcome screen. From then on it opens normally, like any other app.
+
+   <img src="docs/images/open-6-welcome.png" width="560" alt="Lasso's welcome screen: Wrangle everything. Find anything.">
 
 ## Folder and drive permissions
 
